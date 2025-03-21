@@ -4,9 +4,8 @@ function firstWord(str) {
 	{
 		return str;
 	}
-	return str.split(' ')[0];
+	return str.trim().split(' ')[0];
 }
 // Do not change the code below
-
 const str = prompt("Enter String:");
 alert(firstWord(str));
