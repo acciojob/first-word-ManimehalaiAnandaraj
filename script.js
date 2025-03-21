@@ -1,12 +1,12 @@
-function firstWord(s) {
+function firstWord(str) {
   // your code here
-	if(!s || !s.includes(' '))
+	if(!str || !str.includes(' '))
 	{
-		return s;
+		return str;
 	}
-	return s.split(' ')[0];
+	return str.split(' ')[0];
 }
 // Do not change the code below
 
-const s = prompt("Enter String:");
-alert(firstWord(s));
+const str = prompt("Enter String:");
+alert(firstWord(str));
